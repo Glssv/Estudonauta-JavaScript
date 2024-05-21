@@ -14,6 +14,11 @@ O Guanabara sempre nos encoraja a experimentar, a tentar coisas novas para ver n
 
 * o resultado do exercicio ta [aqui](https://eventos-dom.netlify.app/)
 
+### Exercicio 006
+fizemos um programa que soma valores
+
+* pra ver o exercicio funcionando é só [clicar aqui](https://somando-valores.netlify.app/)
+
 ---
 <h2 align="center">
   <img src="img/catzinho.jpg" width="300">
