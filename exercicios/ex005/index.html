@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com Dom</title>
+    <style>
+        body{
+            background-color: rgb(217, 176, 255);
+            font: normal 15pt Arial;
+        }
+        h1{
+            color: black;
+        }
+        div#area{
+            background-color: palevioletred;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros passos com o Dom</h1>
+    <div id="area" onclick="clicar()" onmouseenter="entra()" onmouseout="sair()" >clique em mim </div>
+    <script>
+        function clicar() {
+            let muda = window.document.getElementById('area');
+            muda.innerHTML = '<img src="img/cat happy.gif" alt="Gato feliz">';
+        }
+        function entra() {
+            let entra = window.document.getElementById('area')
+            entra.innerText = 'Entrou!'
+            entra.style.backgroundColor = 'pink'
+        }
+        
+        function sair() {
+            let sair = window.document.getElementById('area')
+            sair.innerText = 'Saiu!'
+            sair.style.backgroundColor = 'violet'
+        }
+    </script>
+    
+</body>
+</html>
