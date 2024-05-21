@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somando valores</title>
+    <style>
+        body{
+            font: normal 18pt Arial;
+        }
+        input{
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="vel1" id="vel1"> km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"> resultado</div>
+    <script>
+        function calcular() {
+            let ve1 = window.document.getElementById('vel1')
+            let res= window.document.getElementById('res')
+            let vel = Number(ve1.value)
+            res.innerHTML= `A sua velocidade atual é de ${vel} km/h`
+            if (vel > 60) {
+                res.innerHTML += '<p>você está multado por excesso de velocidade</p>'
+                
+            } 
+            res.innerHTML += '<p>dirija sempre com cinto de segurança</p>'
+        }
+    </script>
+</body>
+</html>

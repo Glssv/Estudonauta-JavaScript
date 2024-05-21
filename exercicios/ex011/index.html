@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somando valores</title>
+    <style>
+        body{
+            font: normal 18pt Arial;
+        }
+        input{
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Onde você mora?<input type="text" name="nac" id="nac">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"> resultado</div>
+    <script>
+        function calcular() {
+            let nasc = window.document.getElementById('nac')
+            let res= window.document.getElementById('res')
+            let nas = nasc.value
+            if (nas == 'Brasil') {
+                res.innerHTML += '<p>você é brasileiro</p>'
+            } else{ res.innerHTML += '<p>você é estrangeiro</p>'
+        }
+        }
+    </script>
+    
+</body>
+</html>
