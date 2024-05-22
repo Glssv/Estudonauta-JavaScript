@@ -19,6 +19,12 @@ fizemos um programa que soma valores
 
 * pra ver o exercicio funcionando é só [clicar aqui](https://somando-valores.netlify.app/)
 
+### Desafio - Horas do dia 
+
+Este projeto tem como objetivo criar um site que se adapte dinamicamente de acordo com o horário atual. Isso significa que o conteúdo e o design do site serão ajustados com base na hora do dia em que o usuário o acessa. Para saber mais sobre, é só clicar pra ver [meu repositorio](https://github.com/Glssv/Horas-do-dia)
+
+* O link do site criado é esse [aqui](https://horas-do-dia.netlify.app/)
+
 ---
 <h2 align="center">
   <img src="img/catzinho.jpg" width="300">
