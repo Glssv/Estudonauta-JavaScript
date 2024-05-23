@@ -25,7 +25,7 @@ Este projeto tem como objetivo criar um site que se adapte dinamicamente de acor
 
 * O link do site criado é esse [aqui](https://horas-do-dia.netlify.app/)
 
-### Desafio - Verificador de horas 
+### Desafio - Verificador de idade
 
 * o link do site esta [aqui](https://verificador-idade-js.netlify.app/)
 
